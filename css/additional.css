@@ -1,0 +1,31 @@
+.scroller{
+    background-color:#ff3946;
+    height:5px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 9999;
+}
+
+.scroll-top {
+   /* display:block;*/
+    background-color:#ff3946;
+    color:white;
+    width:fit-content;
+    padding:10px 15px;
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    border:2px solid #ff3946;
+    font-size:19px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+    z-index:100;
+
+}
+.scroll-top:hover {
+    background-color: white;
+    color: #ff3946;
+    border:2px solid #ff3946;
+}
